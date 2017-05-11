@@ -24,7 +24,7 @@ ln.on('close',function(){pl
 
 var fs=require('fs');
 var ln = require('readline').createInterface({
-  input: fs.createReadStream('../data/gdpdata.csv')
+  input: fs.createReadStream('data/gdpdata.csv')
   });
 
 var arr_1 = [];
